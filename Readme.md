@@ -41,4 +41,5 @@ It also works with non-standard tunings.
 Now when you're on [songsterr](songster.com), you just have to click on the boomarklet to change the tab notation to nab. If you want the tab back, refresh the page.
 ### Limitations
 -You might have to click multiple times on the bookmarklet: (songsterr doesn't load all of the tab directly, so if you scroll there might be some tab notation)
+
 -If you click on an icon on the left panel, [songsterr](songsterr.com) will refresh the tab, and fret number will be added, you can always refresh & click again on your bookmarklet.
