@@ -33,7 +33,7 @@ When letters are uppercased, it means they are over fret 12.
 It also works with non-standard tunings.
 ## How to use
 ### Setup
-[Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser modify it so the url is :
+[Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser. Modify it so the url is :
 
 `javascript: (() => {[replace with body of songsterrTabToNab.js]})()`.
 
