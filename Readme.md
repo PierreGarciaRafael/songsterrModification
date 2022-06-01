@@ -34,5 +34,7 @@ It also works with non-standard tunings.
 ## How to use
 ### Setup
 [Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser modify it so the url is :
+
 `javascript : javascript: (() => {[replace with body of songsterrTabToNab.js]})()`.
+
 Now when you're on songsterr, you just have to click on the boomarklet to change the tab notation to nab. If you want the tab back, refresh the page.
