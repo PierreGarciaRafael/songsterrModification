@@ -8,7 +8,7 @@ Although partition are great to learn how to find notes, there's always ambiguit
 Taking the best of partitions & tabs, I created new guitar notation: Nablature. 
 It borrows string fret notation from tabs & replaces numbers with the [english note letter](https://en.wikipedia.org/wiki/Key_signature_names_and_translations). It means you have to search which fret you have to press on the fretboard. The goal is to be able to find notes intuitively on the fretboard.
 ## How to read
-Rodeo intro riff, tab notation:
+Rodeo (by Kyuss) intro riff, tab notation:
 ```
 
 E--------------------------------------------------------
