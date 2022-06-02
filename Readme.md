@@ -32,6 +32,7 @@ The letters are the notes you need to play. If you don't know how to find notes 
 When letters are uppercased, it means they are over fret 12.
 It also works with non-standard tunings.
 ## How to use
+
 ### Setup
 [Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser modify it so the url is :
 

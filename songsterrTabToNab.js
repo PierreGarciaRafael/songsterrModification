@@ -9,7 +9,7 @@ const saxNotes = [
 ];
 const fretNotation = new RegExp(/[0-9]+/);
 const lineClassName = "Cw81bf";
-const fretClassName = "h81p9 h8e1";
+const fretClassName = "h81p9 h8e1"; //have to select other frets
 const tuningClassName = "D38xz";
 function noteToHalfTone(note) {
   return saxNotes.findIndex((e) => e == note.toLowerCase());
@@ -47,3 +47,4 @@ for (var lineIdx = 0; lineIdx < tabLine.length; lineIdx += 1) {
     );
   }
 }
+document.getElementById("showroom").remove();
