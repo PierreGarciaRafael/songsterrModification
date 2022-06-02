@@ -1,15 +1,7 @@
-const saxNotes = [
-    "c","c#",
-    "d","d#",
-    "e",
-    "f","f#",
-    "g","g#",
-    "a","a#",
-    "b"
-];
+const saxNotes = ["c","c#","d","d#","e","f","f#","g","g#","a","a#","b"];
 const fretNotation = new RegExp(/[0-9]+/);
 const lineClassName = "Cw81bf";
-const fretClassName = "h81p9 h8e1"; //have to select other frets
+const fretClassNames = ["h81p9 h8e1", "h81p9 h82d8"];
 const tuningClassName = "D38xz";
 function noteToHalfTone(note) {
   return saxNotes.findIndex((e) => e == note.toLowerCase());
@@ -34,17 +26,16 @@ function getFretString(fret, tuning) {
 }
 const tabLine = document.getElementsByClassName(lineClassName);
 const tuning = getTuning(tabLine[0]);
+for (var cid = 0; cid < fretClassNames.length; cid += 1){
 for (var lineIdx = 0; lineIdx < tabLine.length; lineIdx += 1) {
-  const frets = tabLine[lineIdx].getElementsByClassName(fretClassName);
+  const frets = tabLine[lineIdx].getElementsByClassName(fretClassNames[cid]);
   for (var fretIdx = 0; fretIdx < frets.length; fretIdx += 1) {
     const fretRead = frets[fretIdx].textContent.match(fretNotation);
     if (!fretRead) continue;
     const fretNb = Number(fretRead);
     const stringNote = getFretString(frets[fretIdx], tuning);
-    frets[fretIdx].textContent = frets[fretIdx].textContent.replace(
-      fretNotation,
-      toFrote(fretNb + stringNote, fretNb >= 12)
-    );
+    frets[fretIdx].textContent = frets[fretIdx].textContent.replace(fretNotation,
+        toFrote(fretNb + stringNote, fretNb >= 12));
   }
 }
-document.getElementById("showroom").remove();
+}
