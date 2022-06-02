@@ -8,7 +8,7 @@ Although partition are great to learn how to find notes, there's always ambiguit
 Taking the best of partitions & tabs, I created new guitar notation: Nablature. 
 It borrows string fret notation from tabs & replaces numbers with the [english note letter](https://en.wikipedia.org/wiki/Key_signature_names_and_translations). It means you have to search which fret you have to press on the fretboard. The goal is to be able to find notes intuitively on the fretboard.
 ## How to read
-Rodeo (by Kyuss) intro riff, tab notation:
+[El Rodeo](https://www.songsterr.com/a/wsa/kyuss-el-rodeo-tab-s11254) (by Kyuss) intro riff in standard tuning, tab notation:
 ```
 
 E--------------------------------------------------------
@@ -34,7 +34,7 @@ It also works with non-standard tunings.
 ## How to use
 
 ### Setup
-[Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser modify it so the url is :
+[Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser. Modify it so the url is :
 
 `javascript: (() => {[replace with body of songsterrTabToNab.js]})()`.
 
@@ -42,4 +42,5 @@ It also works with non-standard tunings.
 Now when you're on [songsterr](songster.com), you just have to click on the boomarklet to change the tab notation to nab. If you want the tab back, refresh the page.
 ### Limitations
 -You might have to click multiple times on the bookmarklet: (songsterr doesn't load all of the tab directly, so if you scroll there might be some tab notation)
+
 -If you click on an icon on the left panel, [songsterr](songsterr.com) will refresh the tab, and fret number will be added, you can always refresh & click again on your bookmarklet.
