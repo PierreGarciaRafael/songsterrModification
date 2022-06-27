@@ -1,4 +1,26 @@
 # Learn note with tabs
+## How to use
+### Setup
+####  1 Create a boomarklet
+On your browser left click on the favorite bar like so so & Click on add a bookmarklet (ajouter un marque-page).
+
+![2.png](tutorial/gchrome/2.png "2.png")
+#### 2 
+This window should open, select the URL.
+![3.png](tutorial/gchrome/3.png)
+
+#### 3
+Copy & paste `javascript: (() => {[replace with body of songsterrTabToNab.js]})()` instead of the URL.
+![4.png](tutorial/gchrome/4.png)
+
+#### 4
+Select the text in between the [ ] and the [ ]. Replace it with the whole code/text inside of `songsterrTabToNab.js` script.
+
+![5.png](tutorial/gchrome/5.png)
+
+### On songsterr
+Now when you're on [songsterr](songsterr.com), you just have to click on the boomarklet  (what you created) to change the tab notation to nab. If you want the tab back, refresh the page.
+
 ## Concept
 This booklet is designed to learn notes on the fretboard, with tab-like notation & without partition. It only works on [songsterr.com](https://www.songsterr.com/) for now.
 ## Context
@@ -31,15 +53,7 @@ E-----------------------------------------------------
 The letters are the notes you need to play. If you don't know how to find notes on the fretboard checkout [this](https://www.guitar-chord.org/fretboard.html).
 When letters are uppercased, it means they are over fret 12.
 It also works with non-standard tunings.
-## How to use
 
-### Setup
-[Create a boomarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) on your browser. Modify it so the url is :
-
-`javascript: (() => {[replace with body of songsterrTabToNab.js]})()`.
-
-### On songsterr
-Now when you're on [songsterr](songster.com), you just have to click on the boomarklet to change the tab notation to nab. If you want the tab back, refresh the page.
 ### Limitations
 -You might have to click multiple times on the bookmarklet: (songsterr doesn't load all of the tab directly, so if you scroll there might be some tab notation)
 
